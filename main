@@ -295,7 +295,7 @@ local success, error = pcall(function()
 				thing, reason, offensive = v[1], v[2], i;
 				if (getgenv()).autoreport.Advertise == true then
 					local args = {
-						[1] = "/w " .. player.Name .. " i reported u lol",
+						[1] = "/w " .. player.Name .. " [VAMP CLIENT]: Reported.",
 						[2] = "All"
 					};
 					(game:GetService("ReplicatedStorage")).DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args));
